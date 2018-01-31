@@ -1,0 +1,86 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_MainLayout</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body style="background-color: #483018">
+    <div class="container">
+        <div class="row">
+            <div class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="@Url.Action("Index","Home")"class="navbar-brand">TuringPoint</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                           <li> @Html.ActionLink("home", "Index")</li>
+                            <li> @Html.ActionLink("About Us", "AboutUs")</li>
+                            <li> @Html.ActionLink("How It  Works", "HowItWorks")</li>
+                            <li>@Html.ActionLink("Contact Us","ContactUs")</li>
+                           
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                         <li><a href="@Url.Action("SignUp","Home")">Registration<span class="glyphicon glyphicon-user"></span></a></li>
+                            <li><a href="@Url.Action("LogIN","Home")">LogIn<span class="glyphicon glyphicon-log-in"></span></a></li>
+                        
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div>
+            @RenderBody()
+        </div>
+        <div class="jumbotron">
+            <div class="container-fluid">
+                <div class="row" style="border-bottom:3px solid Black;">
+                    <h1 style="color:gold">TuringPoint</h1><br />
+                   
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <h2>About us</h2> <br />
+                        <p>
+                            TuringPoint is a Leturer Notes website run by profissionals.<br />
+                            We are youngstres who need the help and support from elligible persons to give Knowlage for thoes who really need it.
+                            <br />
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Follow us</h2>
+                        <i class="fa fa-facebook-square" style="font-size:25px; margin-bottom:5px;">Follow us on facebook <a href="www.facebook.com">Click here</a></i>
+                        <br />
+                        <i class="fa fa-twitter-square" style="font-size:25px; margin-bottom:5px;">Follow us on Twitter <a href="www.Twitter.com">Click here</a></i>
+                        <br />
+                        <i class="fa fa-instagram" style="font-size:25px; margin-bottom:5px;">Follow us on Instagram <a href="www.Instagram.com">Click here</a></i>
+
+
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Find us</h2>
+
+                    </div>
+
+
+                </div>
+                <i style="text-align:center"> Copyright@2018 to TuringPoint</i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

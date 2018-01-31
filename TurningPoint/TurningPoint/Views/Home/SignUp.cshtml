@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "SignUp";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="container" style="margin-bottom:10px;">
+    <div class="col-lg-6" style="background:White">
+   <h3>Registration</h3>
+    <div class="form-group">
+        @Html.Label("Select the Field")
+        @Html.DropDownList("Filds",null, new { @class = "form-control" })<br/>
+        @Html.Label("Full Name")
+        @Html.TextBox("FullName", null, new { @class = "form-control" })
+        @Html.Label("User Name")
+        @Html.TextBox("UserName", null, new { @class = "form-control" })
+        @Html.Label("Password")
+        @Html.TextBox("Password", null, new { @class = "form-control" })
+        @Html.Label("Confirm Password")
+        @Html.TextBox("ConfirmPassword", null, new { @class = "form-control" })
+        @Html.Label("Date Of Birth")
+        @Html.TextBox("DateOfBirth", null, new { @class = "form-control" })
+        @Html.Label("Gender")
+        Male:  @Html.RadioButton("Gender", "Male")
+        Female:   @Html.RadioButton("Gender", "Female")<br/>
+        @Html.Label("Email Id")
+        @Html.TextBox("EmailId", null, new { @class = "form-control" })
+        @Html.Label("Address")
+        @Html.TextBox("Address", null, new { @class = "form-control" })
+        @Html.Label("Phone No")
+        @Html.TextBox("PhoneNo", null, new { @class = "form-control" })
+        <button class="btn btn-primary" style="margin:5px;">Sign In</button>
+        <button class="btn btn-primary" style="margin:5px;">Cancel</button>
+
+    </div>
+
+        </div>
+    <div class="col-lg-6">
+        <img src="~/Image/img5.png" style="margin:5px;width:100%" />
+    </div>
+</div>
+   

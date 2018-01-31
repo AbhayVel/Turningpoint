@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "ContactUs";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="container" style="margin-bottom:10px;">
+    <div class="row" >
+        <div class="col-lg-7" style="background:White;">
+            <h2 style="font:bold;" class="text-Primary">Contact Us</h2>
+            <div class="form-group text-Dark">
+               
+                @Html.Label("Frist Name")<span class="glyphicon glyphicon-user"></span>  
+                @Html.TextBox("FirstName", null, new { placeholder = "Enter first name", @class = "form-control" })
+                @Html.Label("Last Name")<span class="glyphicon glyphicon-user"></span>  
+                @Html.TextBox("Last Name",null, new { placeholder = "Enter Last Name", @class = "form-control" })
+                @Html.Label("Email")<span class = "glyphicon glyphicon-envelope"></span>
+                @Html.TextBox("Email", null,new { placeholder="Enter Email", @class = "form-control" })
+                @Html.Label("Phone No")<span class = "glyphicon glyphicon-phone"}></span>
+                @Html.TextBox("PhoneNo",null, new { placeholder = "Enter Phone no", @class = "form-control" })
+                @Html.Label("Message")<span class = "glyphicon glyphicon-envelope"></span>
+                @Html.TextBox("Message",null, new { placeholder="Enter your msg",row=20,@class="form-control"})
+                <button class="btn btn-success" style="margin:5px;">Send</button>
+                <button class="btn btn-success" style="margin:5px;">Clear</button>
+                
+            </div>
+        </div>
+        <div class="col-md-5">
+           <img src="~/Image/img11.jpg"style="width:100%" />
+        </div>
+    </div>
+</div>

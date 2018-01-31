@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "LogIn";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="container">
+ <div class= "col-md-5">
+    <div class="panel panel-info text-primary"  style="background-color:rgba(0,0,0,0.5);">
+        <div class="panel-heading text-center">LogIn</div>
+        <div class="panel-body">
+            <div class="form-group">
+                @Html.Label("User Name")
+               @Html.TextBox("UserName", null, new { @class = "form-control" })  
+                @Html.Label("Password")
+                @Html.TextBox("Password", null, new { @class = "form-control" })
+                <div class="btn btn-group" style="margin:5px;">
+                    <button class="btn btn-primary"style="margin-right:5px" >Login</button>
+                    <button class="btn btn-primary">Cancle</button>
+                </div>
+               
+
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <div class="col-md-7">
+        <img src="~/Image/img7.jpg" style="width:100%;"/>
+    </div>
+</div>
