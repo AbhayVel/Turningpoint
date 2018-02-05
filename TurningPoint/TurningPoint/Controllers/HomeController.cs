@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+
 namespace TurningPoint.Controllers
 {
     public class HomeController : Controller
@@ -36,6 +37,18 @@ namespace TurningPoint.Controllers
         }
         public ActionResult LogIn()
         {
+            //var userRepository = new UserRepository();
+            //var user = userRepository.CheckUser(u.name, u.password);
+            //if (user != null)
+            //{
+
+            //    return View();
+            //}
+            //else
+            //{
+            //    ViewBag.message = "username/password not valid.";
+            //    return View();
+            //}
             return View();
         }
     }

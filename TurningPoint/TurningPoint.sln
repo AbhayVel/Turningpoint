@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurningPoint.Models", "Turn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurningPoint.Common", "TurningPoint.Common\TurningPoint.Common.csproj", "{B1DAFD7E-2907-4578-AEAD-1346D4974741}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurningPoint.ViewModels", "TurningPoint.ViewModels\TurningPoint.ViewModels.csproj", "{5C265F18-A0ED-4C38-9B42-BC1F42FEA1CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B1DAFD7E-2907-4578-AEAD-1346D4974741}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1DAFD7E-2907-4578-AEAD-1346D4974741}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1DAFD7E-2907-4578-AEAD-1346D4974741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C265F18-A0ED-4C38-9B42-BC1F42FEA1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C265F18-A0ED-4C38-9B42-BC1F42FEA1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C265F18-A0ED-4C38-9B42-BC1F42FEA1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C265F18-A0ED-4C38-9B42-BC1F42FEA1CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

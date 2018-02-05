@@ -1,0 +1,10 @@
+F:\Projects\TurningPoint\TurningPoint\TurningPoint.ViewModels\bin\Debug\TurningPoint.ViewModels.dll
+F:\Projects\TurningPoint\TurningPoint\TurningPoint.ViewModels\bin\Debug\TurningPoint.ViewModels.pdb
+F:\Projects\TurningPoint\TurningPoint\TurningPoint.ViewModels\obj\Debug\TurningPoint.ViewModels.csproj.CoreCompileInputs.cache
+F:\Projects\TurningPoint\TurningPoint\TurningPoint.ViewModels\obj\Debug\TurningPoint.ViewModels.dll
+F:\Projects\TurningPoint\TurningPoint\TurningPoint.ViewModels\obj\Debug\TurningPoint.ViewModels.pdb
+F:\Projects\TurningPoint\TurningPoint\TurningPoint.ViewModels\bin\Debug\TurningPoint.ViewModels.dll.config
+F:\Projects\TurningPoint\TurningPoint\TurningPoint.ViewModels\bin\Debug\EntityFramework.dll
+F:\Projects\TurningPoint\TurningPoint\TurningPoint.ViewModels\bin\Debug\EntityFramework.SqlServer.dll
+F:\Projects\TurningPoint\TurningPoint\TurningPoint.ViewModels\bin\Debug\EntityFramework.xml
+F:\Projects\TurningPoint\TurningPoint\TurningPoint.ViewModels\bin\Debug\EntityFramework.SqlServer.xml
