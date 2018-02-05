@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace apurvaProject1
+namespace TurningPoint
 {
     public class RouteConfig
     {
